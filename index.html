@@ -10,7 +10,6 @@
 	<script type="text/javascript" src="controllers/app.js"></script>
 	<script type="text/javascript" src="controllers/test_controller.js"></script>
 	<script type="text/javascript" src="controllers/home_controller.js"></script>
-	<script type="text/javascript" src="js/navbar.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/navbar.css" />
 	<base href="/">
 </head>
@@ -33,7 +32,9 @@
 	          	<span class="caret"></span></a>
 	          	<ul class="dropdown-menu">
 	            	<li><a href="#">Page 1-1</a></li>
+	            	<li class="divider"></li>
 	            	<li><a href="#">Page 1-2</a></li>
+	            	<li class="divider"></li>
 	            	<li><a href="#">Page 1-3</a></li> 
 	          	</ul>
 	        	</li>
@@ -44,8 +45,8 @@
 		      	<ul class="nav navbar-nav navbar-right">
 		      		<table>
 		      			<tr>
-		        			<td><li><a href="https://twitter.com/jcalternatives" target="_blank"><img id="twitter" src="img/TwitterLogo.png"/></a></li></td>
-		        			<td><li><a href="https://www.facebook.com/jcalternatives" target="_blank"><img id="facebook" src="img/FbLogo.png" /></a></li></td>
+		        			<td id="twitter-cell"><li><a href="https://twitter.com/jcalternatives" target="_blank"><img id="twitter" src="img/TwitterLogo.png"/></a></li></td>
+		        			<td id="fb-cell"><li><a href="https://www.facebook.com/jcalternatives" target="_blank"><img id="facebook" src="img/FbLogo.png" /></a></li></td>
 		      			</tr>
 		      		</table>
 		      	</ul>
@@ -56,5 +57,6 @@
 
 	<div ng-view></div>
 
+	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>

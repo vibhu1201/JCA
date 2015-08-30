@@ -57,7 +57,7 @@
 	height: 55px;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-right: 22px;
+/*	margin-right: 22px;*/
 }
 
 #facebook  {
@@ -65,5 +65,19 @@
 	height: 36px;
 	margin-top: auto;
 	margin-bottom: 2px;
-	margin-left:22px;
+	/*margin-left:22px;*/
 }
+
+#twitter-cell {
+	padding-right: 22px;
+}
+
+#fb-cell {
+	padding-left: 22px;
+}
+
+.dropdown-menu {
+	background-color: #f6f5e7;
+	color: #8B0000;
+}
+

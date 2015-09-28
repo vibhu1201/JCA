@@ -4,24 +4,56 @@
 
 .twitter-timeline {
 	max-width: none !important;
-	border: 2px solid #8B0000 !important;
+	/*border: 2px solid #8B0000 !important;*/
 }
 
 .news-section {
 	background-color: #FFFFFF;
 	height: 600px;
-	border: 2px solid #8B0000 !important;
+	/*border: 2px solid #8B0000 !important;*/
 }
 
 .img-carousel {
 	height: auto;
 	padding-left: 0px;
-  border: 2px solid #8B0000 !important;
+ /* border: 2px solid #8B0000 !important;*/
 }
 
 .row {
 	margin-top: 1%;
 	margin-bottom: 1%;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: -17px;
+  z-index: 1000;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+.active {
+  display: inline-block;
+}
+
+.inactive {
+  display: none;
 }
 
 /*

@@ -5,11 +5,15 @@
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.2/vendors/jquery.easings.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.2/vendors/jquery.slimscroll.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.2/jquery.fullPage.min.js"></script>
 	<script src="vendors/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="vendors/bootstrap.min.css" />
 	<script type="text/javascript" src="controllers/app.js"></script>
 	<script type="text/javascript" src="controllers/test_controller.js"></script>
 	<script type="text/javascript" src="controllers/home_controller.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.2/jquery.fullPage.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/navbar.css" />
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
 	<base href="/">
@@ -27,22 +31,25 @@
 	    </div>
 	    <div>
 	      	<ul class="nav navbar-nav col-md-offset-2">
-	        	<li><a href="#">Home</a></li>
+	        	<li><a href="/">Home</a></li>
 	        	<li class="dropdown">
-	          	<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+	          	<a class="dropdown-toggle" data-toggle="dropdown" href="about">About
 	          	<span class="caret"></span></a>
 	          	<ul class="dropdown-menu">
-	            	<li><a href="#">Page 1-1</a></li>
+	            	<li><a href="about#background">Background</a></li>
+	            	<li class="divider"></li>  
+	            	<li><a href="about#our-promise">Our Promise</a></li>
 	            	<li class="divider"></li>
-	            	<li><a href="#">Page 1-2</a></li>
+	            	<li><a href="about#testimonials">Testimonials</a></li>
 	            	<li class="divider"></li>
-	            	<li><a href="#">Page 1-3</a></li> 
+	            	<li><a href="about#faqs">F.A.Q.'s</a></li>
 	          	</ul>
 	        	</li>
-	        	<li><a href="#">The Process</a></li> 
-	        	<li><a href="#">Contact Us</a></li> 
+	        	<li><a href="process">The Process</a></li> 
+	        	<li><a href="contact">Contact Us</a></li> 
 	      	</ul>
-	      	<div class="social-media-container">	
+	      	
+	      	<!-- <div class="social-media-container">	
 		      	<ul class="nav navbar-nav navbar-right">
 		      		<table>
 		      			<tr>
@@ -51,7 +58,7 @@
 		      			</tr>
 		      		</table>
 		      	</ul>
-		    </div>
+		    </div> -->
 	    </div>
 	  </div>
 	</nav>

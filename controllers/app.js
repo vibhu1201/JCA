@@ -13,6 +13,18 @@
 			controller: 'homeController'
 		});	
 
+		$routeProvider.when('/process', {
+			templateUrl: 'templates/process.html'
+		});
+
+		$routeProvider.when('/about', {
+			templateUrl: 'templates/about.html'
+		});
+
+		$routeProvider.when('/contact', {
+			templateUrl: 'templates/contact.html'
+		});
+
 		if(window.history && window.history.pushState){
     		$locationProvider.html5Mode(true);
   		}

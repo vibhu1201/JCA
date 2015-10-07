@@ -1,8 +1,8 @@
-window.onload=(function() {
+window.onload = (function() {
 
   current_pic = $('.active');
-  current_pic.fadOut(600).removeClass('active');
-  current_pic.
+  current_pic.fadeOut(600).removeClass('active');
+  
 
 })();
 

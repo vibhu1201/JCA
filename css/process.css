@@ -1,0 +1,12 @@
+#process {
+	background-color: #EDEADB;
+}
+
+.process-description {
+	color: #663300;
+	line-height: 30px;
+	font-size: 20px;
+	/*text-align: center;*/
+	margin-top: 8px;
+	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+}

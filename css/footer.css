@@ -1,0 +1,37 @@
+.footer {
+	/*background-color: #f6f5e7;*/
+	background-color: #EBE4C5;
+	height: 100%;
+	width: 100%;
+}
+
+.social-media-container {
+	/*float: right;*/
+	margin-right: 29px;
+	margin-top: 15px;
+}
+
+
+#twitter {
+	width: 55px;
+	height: 55px;
+	margin-top: auto;
+	margin-bottom: auto;
+/*	margin-right: 22px;*/
+}
+
+#facebook  {
+	width: 36px;
+	height: 36px;
+	margin-top: auto;
+	margin-bottom: 2px;
+	/*margin-left:22px;*/
+}
+
+#twitter-cell {
+	padding-right: 22px;
+}
+
+#fb-cell {
+	padding-left: 22px;
+}

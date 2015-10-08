@@ -1,5 +1,6 @@
 #site_nav {
-	background-color: #f6f5e7;
+	background-color: #EBE4C5;
+	/*background-color: #f6f5e7;*/
 }
 
 .navbar-inverse .navbar-nav>li {
@@ -63,41 +64,12 @@
 	margin-top: 26px;
 }
 
-.social-media-container {
-	float: right;
-	margin-right: 29px;
-	margin-top: -2px;
-}
 
-
-#twitter {
-	width: 55px;
-	height: 55px;
-	margin-top: auto;
-	margin-bottom: auto;
-/*	margin-right: 22px;*/
-}
-
-#facebook  {
-	width: 36px;
-	height: 36px;
-	margin-top: auto;
-	margin-bottom: 2px;
-	/*margin-left:22px;*/
-}
-
-#twitter-cell {
-	padding-right: 22px;
-}
-
-#fb-cell {
-	padding-left: 22px;
-}
 
 .dropdown-menu {
 	left: -2px;
 	right: -2px;
-	background-color: #f6f5e7;
+	background-color: #EBE4C5;
 	min-width: 0;
 	border-right: 2px solid #8B0000;
 	border-left: 2px solid #8B0000;
@@ -116,12 +88,16 @@
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-	background-color: #f6f5e7;
+	background-color: #EBE4C5;
 	color: #8B0000;
  }
 
 .dropdown-menu > li > a:hover {
-	background-color: #f6f5e7;
+	background-color: #EBE4C5;
 	color: #8B0000;
 	text-decoration: underline;
+}
+
+.navbar-inverse {
+	border-color: #8B0000
 }

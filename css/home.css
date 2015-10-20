@@ -6,6 +6,8 @@
   background: -o-linear-gradient(right, white, #EDEADB, white); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .twitter-timeline {
@@ -14,15 +16,14 @@
 }
 
 .news-section {
-	background-color: #FFFFFF;
 	height: 600px;
 	/*border: 2px solid #8B0000 !important;*/
 }
 
 .img-carousel {
-	height: auto;
+	height: 605px;
 	padding-left: 0px;
- /* border: 2px solid #8B0000 !important;*/
+  border: 2px solid #663300 !important;
 }
 
 .row {
@@ -60,6 +61,25 @@
 
 .inactive {
   display: none;
+}
+
+
+#tw-header-text {
+  font-family: Papyrus;
+  text-align: center;
+  color: #663300;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+#ns {
+  margin-top: 17px;
+}
+
+.news {
+  font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+  font-size: 16px;
 }
 
 /*

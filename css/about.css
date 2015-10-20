@@ -15,6 +15,7 @@
 }*/
 
 #header-text {
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	text-align: center;
 	color: #8B0000;
 	text-decoration: underline
@@ -47,6 +48,7 @@ hr {
 }
 
 #header {
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	text-align: center;
 	color: #8B0000;
 	font-size: 30px;
@@ -112,4 +114,9 @@ hr {
 .container.col {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+#john {
+	width: 92%;
+	margin-top: 15%;
 }

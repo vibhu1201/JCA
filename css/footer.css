@@ -1,6 +1,10 @@
 .footer {
 	/*background-color: #f6f5e7;*/
-	background-color: #EBE4C5;
+	/*background-color: #EBE4C5;*/
+	background: -webkit-linear-gradient(left, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, white, #EDEADB, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #EDEADB, #EBE4C5, #EDEADB); /* Standard syntax */
 	height: 100%;
 	width: 100%;
 }

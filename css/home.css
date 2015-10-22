@@ -2,7 +2,7 @@
 	/*background-color: #EDEADB;*/
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(left, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, white, #EDEADB, white); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
@@ -23,6 +23,9 @@
 .img-carousel {
 	height: 605px;
 	padding-left: 0px;
+}
+
+.imgs {
   border: 2px solid #663300 !important;
 }
 
@@ -80,6 +83,10 @@
 .news {
   font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
   font-size: 16px;
+}
+
+#ns > ul {
+  padding-left: 20px;
 }
 
 /*

@@ -13,68 +13,71 @@
 	<script type="text/javascript" src="controllers/app.js"></script>
 	<script type="text/javascript" src="controllers/test_controller.js"></script>
 	<script type="text/javascript" src="controllers/home_controller.js"></script>
+	<script type="text/javascript" src="controllers/resources_controller.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.2/jquery.fullPage.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/navbar.css" />
 	<link rel="stylesheet" type="text/css" href="css/home.css" />
 	<link rel="stylesheet" type="text/css" href="css/about.css" />
 	<link rel="stylesheet" type="text/css" href="css/process.css" />
 	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="css/resources.css" />
+	<link rel="stylesheet" type="text/css" href="css/contact.css" />
 	<base href="/">
 </head>
 <body>
 	<div ng-controller="IndexController">
-	</div>
-	
-	<nav class="navbar navbar-inverse" id="site_nav">
-	  <div class="site-nav-header"></div>
-	  <div class="container-fluid">
-	  	<div class="navbar-header">
-	  		<!-- <h2 id="header-text">A Positive Solution ~ A Confident Choice ~ A Transition Partner</h2> -->
-	    	<img id="logo" src="img/JCA_Logo.png"><a class="navbar-brand" href="/"></a></img>
-	    </div>
-	    <div>
-	      	<ul class="nav navbar-nav col-md-offset-2">
-	        	<li><a href="/">Home</a></li>
-	        	<li class="dropdown">
-	          	<a class="dropdown-toggle" data-toggle="dropdown" href="about">About
-	          	<span class="caret"></span></a>
-	          	<ul class="dropdown-menu">
-	            	<li><a href="about"><b>Our Promise</b></a></li>
-	            	<li class="divider"></li>
-	            	<li><a href="about#background"><b>Background</b></a></li>
-	            	<li class="divider"></li>
-	            	<li><a href="about#testimonials"><b>Testimonials</b></a></li>
-	            	<li class="divider"></li>
-	            	<li><a href="about#faqs"><b>F.A.Q.'s</b></a></li>
-	          	</ul>
-	        	</li>
-	        	<li><a href="process">The Process</a></li>
-	        	<li><a href="resources">Resources</a></li> 
-	        	<li><a href="contact">Contact Us</a></li> 
-	      	</ul>
-	    </div>
-	    <div class="contact_info">
-	    	<h4 class="ci">312.565.1900</h4>
-	    	<h5 class="ci">3950 N. Avondale, Chicago, IL 60641</h5>
-	    </div>
-	 </div>
-	</nav>
+		<header>
+			<nav class="navbar navbar-inverse" id="site_nav">
+			  <div class="site-nav-header"></div>
+			  <div class="container-fluid">
+			  	<div class="navbar-header">
+			    	<img id="logo" src="img/JCA_Logo.png"><a class="navbar-brand" href="/"></a></img>
+			    </div>
+			    <div>
+			      	<ul class="nav navbar-nav col-md-offset-2">
+			        	<li><a href="/">Home</a></li>
+			        	<li class="dropdown">
+			          	<a class="dropdown-toggle" data-toggle="dropdown" href="about">About
+			          	<span class="caret"></span></a>
+			          	<ul class="dropdown-menu">
+			            	<li><a href="about"><b>Our Promise</b></a></li>
+			            	<li class="divider"></li>
+			            	<li><a href="about#background"><b>Background</b></a></li>
+			            	<li class="divider"></li>
+			            	<li><a href="about#testimonials"><b>Testimonials</b></a></li>
+			            	<li class="divider"></li>
+			            	<li><a href="about#faqs"><b>F.A.Q.'s</b></a></li>
+			          	</ul>
+			        	</li>
+			        	<li><a href="process">The Process</a></li>
+			        	<li><a href="resources">Resources</a></li> 
+			        	<li><a href="contact">Contact Us</a></li> 
+			      	</ul>
+			    </div>
+			    <div class="contact_info">
+			    	<h4 class="ci">312.565.1900</h4>
+			    	<h5 class="ci">3950 N. Avondale, Chicago, IL 60641</h5>
+			    </div>
+			 </div>
+			</nav>
+		</header>
 
-	<div ng-view></div>
-	<div class="site-nav-header"></div>
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="social-media-container">	
-		      	<!-- <ul class="nav navbar-nav"> -->
-		      		<table align="center">
-		      			<tr>
-		        			<td id="twitter-cell"><a href="https://twitter.com/jcalternatives" target="_blank"><img id="twitter" src="img/TwitterLogo.png"/></a></td>
-		        			<td id="fb-cell"><a href="https://www.facebook.com/jcalternatives" target="_blank"><img id="facebook" src="img/FbLogo.png" /></a></td>
-		      			</tr>
-		      		</table>
-		      	<!-- </ul> -->
-		    </div>
-		</div>
+		<div ng-view></div>
+		
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="social-media-container">	
+			      	<!-- <ul class="nav navbar-nav"> -->
+			      		<table align="center">
+			      			<tr>
+			        			<td id="twitter-cell"><a href="https://twitter.com/jcalternatives" target="_blank"><img id="twitter" src="img/TwitterLogo.png"/></a></td>
+			        			<td id="fb-cell"><a href="https://www.facebook.com/jcalternatives" target="_blank"><img id="facebook" src="img/FbLogo.png" /></a></td>
+			      			</tr>
+			      		</table>
+			      	<!-- </ul> -->
+			    </div>
+			</div>
+		</footer>
 	</div>
 	<!-- <div>
 		<h2>Placeholder

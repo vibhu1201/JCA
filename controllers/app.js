@@ -25,6 +25,11 @@
 			templateUrl: 'templates/contact.html'
 		});
 
+		$routeProvider.when('/resources', {
+			templateUrl: 'templates/resources.html',
+			controller:'resourcesController'
+		});
+
 		if(window.history && window.history.pushState){
     		$locationProvider.html5Mode(true);
   		}

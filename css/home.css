@@ -1,11 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 75px;
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -o-linear-gradient(right, white, #EDEADB, white) ; /* For Opera 11.1 to 12.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
+}
+
+.main-body{
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -o-linear-gradient(right, white, #EDEADB, white) ; /* For Opera 11.1 to 12.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed, linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
+  width: 100%;
+}
+
 .home {
-	/*background-color: #EDEADB;*/
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, white, #EDEADB, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
   padding-top: 7px;
   padding-bottom: 7px;
 }
@@ -71,7 +87,7 @@
   font-family: Papyrus;
   text-align: center;
   color: #663300;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 6px;
 }
@@ -89,6 +105,40 @@
   padding-left: 20px;
 }
 
+.gmaps {
+  width: 100%;
+  border: 1px solid #663300 !important;
+}
+
+.tw {
+  margin-top: 15px;
+}
+
+.intro {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  text-align: center;
+  margin: 0 40px 0 40px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#intro-header-text {
+  font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+  text-align: center;
+  color: #8B0000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-bullet {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
 /*
 .container {
   width: 960px;

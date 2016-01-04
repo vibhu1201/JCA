@@ -1,17 +1,15 @@
 #process {
-	height: 100%;
-	width: 100%;
-	background: -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, white, #EDEADB, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
 }
 
 .process-description {
 	color: #663300;
 	line-height: 30px;
 	font-size: 20px;
-	/*text-align: center;*/
 	margin-top: 8px;
 	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+}
+
+.prcs-img {
+	float: right;
+	margin-top: 10%;
 }

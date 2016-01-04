@@ -1,3 +1,8 @@
+#wrapper {
+	min-height:100%;
+   	position:relative;
+}
+
 #site_nav {
 	background: -webkit-linear-gradient(right, #EDEADB, #EBE4C5, #EDEADB); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(right, #EDEADB, #EBE4C5, #EDEADB); /* For Opera 11.1 to 12.0 */
@@ -23,7 +28,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	font-size: 24px;
+	font-size: 22px;
 	color: #8B0000;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -46,13 +51,6 @@
 	margin-bottom: 0px;
 }
 
-/*#header-text {
-	display: inline-block;
-	font-size: 12px;
-	color: #8B0000;
-	float: right;
-	margin-left: 5px;
-}*/
 
 #logo {
 	float: left;
@@ -60,7 +58,8 @@
 
 .nav.navbar-nav {
 	margin-left: 10px;
-	margin-top: 21px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 
@@ -120,4 +119,12 @@
 	text-align: center;
 	margin-bottom: -7px;
 	text-decoration: underline;
+}
+
+#experiment {
+	color: #D1E5A9;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-size: 20px;
+	font-style: italic;
 }

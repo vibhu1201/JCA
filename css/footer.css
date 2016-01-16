@@ -40,17 +40,7 @@
 	height: 76%;
 }
 
-#twitter-cell {
+#logo-cell {
 	padding-right: 22px;
 	padding-left: 22px;
-}
-
-#fb-cell {
-	padding-left: 22px;
-	padding-right: 22px;
-}
-
-#pint-cell {
-	padding-left: 22px;
-	padding-right: 22px
 }

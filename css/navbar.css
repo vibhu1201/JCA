@@ -23,15 +23,13 @@
 
 .navbar-inverse .navbar-nav>li:hover {
   	color: #8B0000;
-	border-right: 2px solid #8B0000;
-	border-left: 2px solid #8B0000;
+	text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav>li>a {
 	font-size: 22px;
 	color: #8B0000;
 	margin-left: 5px;
-	margin-right: 5px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -55,11 +53,6 @@
 	float: left;
 }
 
-svg {
-	height: 10px;
-	clip-path: inset(10px 20px 30px 40px);
-}
-
 
 .nav.navbar-nav {
 	margin-top: 15px;
@@ -79,7 +72,9 @@ svg {
 	border-right: 2px solid #8B0000;
 	border-left: 2px solid #8B0000;
 	border-bottom: 2px solid #8B0000;
-	border-top: 1px solid #5E3F00;
+/*	border-top: 1px solid #5E3F00;*/
+	border-top: 0;
+	text-align: center;
 }
 
 .dropdown-menu>li>a {
@@ -125,11 +120,11 @@ svg {
 	color: #D1E5A9;
 	font-weight: bold;
 	font-family: papyrus, Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
-	font-size: 31px;
+	font-size: 29px;
 /*	font-style: italic;*/
 	text-align: center;
-	margin-bottom: 0;
-	text-shadow: 0 0 2px #39653c;
+	margin-bottom: -20px;
+	text-shadow: -1px -1px 0 #e2ecd0, 1px -1px 0 #e2ecd0, -1px 1px 0 #e2ecd0, 1px 1px 0 #e2ecd0;
 }
 
 .navbar-header {
@@ -139,6 +134,7 @@ svg {
 .justified {
     position:absolute;
     left:50%;
+    margin-top: 0.5em;
 }
 
 .cf-navbar {
@@ -146,6 +142,22 @@ svg {
 }
 
 .contact_info {
-	margin-top: 1em;
+	margin-top: 1.2em;
 	margin-right: 1em;
+}
+
+h5.ci {
+	font-size: 15px;
+}
+
+.set-margin-tst {
+	margin-left: -8px;
+}
+
+.set-margin-op {
+	margin-left: -7px;
+}
+
+.set-margin-bg {
+	margin-left: -6px;
 }

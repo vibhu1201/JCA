@@ -28,7 +28,7 @@
     	    </div>
 
     	    <div class="field text-center">
-    	        <button type="submit" class="submit-btn form-btn" ng-disabled="contactForm.$invalid" ng-style="httpCall">{{httpCallText}}</button>
+    	        <button type="submit" class="submit-btn form-btn" ng-class="{ 'opaque': contactForm.$invalid }" ng-disabled="contactForm.$invalid || submitted" ng-style="httpCall">{{httpCallText}}</button>
     	    </div>
     	</form>
     </div>

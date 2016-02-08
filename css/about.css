@@ -12,11 +12,11 @@
 	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	text-align: center;
 	color: #8B0000;
-	text-decoration: underline
 }
 
 #our-promise > p {
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	color: #663300;
 	line-height: 34px;
     margin-top: 18px;
@@ -55,7 +55,8 @@ hr {
 	font-size: 18px;
 	/*text-align: center;*/
 	margin-top: 25px;
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .answer {
@@ -64,7 +65,8 @@ hr {
 	font-size: 16px;
 	/*text-align: center;*/
 	margin-top: -5px;
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .qas {
@@ -83,7 +85,8 @@ hr {
 	/*text-align: center;*/
 	margin-top: 25px;
 	text-align: center;
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .person {
@@ -92,7 +95,8 @@ hr {
 	font-size: 16px;
 	text-align: center;
 	margin-top: -5px;
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .john {
@@ -101,7 +105,8 @@ hr {
 	font-size: 17px;
 	/*text-align: center;*/
 	margin-top: -5px;
-	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;
+	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
+	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .container.col {

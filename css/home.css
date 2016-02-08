@@ -9,13 +9,6 @@ body {
   background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -o-linear-gradient(right, white, #EDEADB, white) ; /* For Opera 11.1 to 12.0 */
   background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
   background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
-}
-
-.main-body{
-  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
-  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -o-linear-gradient(right, white, #EDEADB, white) ; /* For Opera 11.1 to 12.0 */
-  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
-  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
   width: 100%;
 }
 
@@ -141,7 +134,7 @@ body {
 }
 
 .text-center.john {
-  font-size: 140%;
+  font-size: 155%;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {

@@ -9,7 +9,7 @@ var config = require('./config.js');
 process.env.config = JSON.stringify(config);
 app.use(morgan('dev'));
 
-mongoose.connect(config.MONGODB.URL);
+// mongoose.connect(config.MONGODB.URL);
 
 app.use(express.static("public"));
 

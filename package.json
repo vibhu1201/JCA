@@ -1,0 +1,23 @@
+{
+  "name": "JCA",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibhu1201/JCA.git"
+  },
+  "keywords": [
+    "wig",
+    "cancer"
+  ],
+  "author": "Vibhu Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibhu1201/JCA/issues"
+  },
+  "homepage": "https://github.com/vibhu1201/JCA"
+}

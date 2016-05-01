@@ -1,0 +1,142 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 75px;
+  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -webkit-linear-gradient(right, white, #EDEADB, white); /* For Safari 5.1 to 6.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -o-linear-gradient(right, white, #EDEADB, white) ; /* For Opera 11.1 to 12.0 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, -moz-linear-gradient(right, white, #EDEADB, white); /* For Firefox 3.6 to 15 */
+  background: url('/img/Single Leaf.svg') no-repeat fixed 33% 50%, linear-gradient(to right, white , #EDEADB, white); /* Standard syntax */
+  width: 100%;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 7px;
+  margin-top: 15px;
+}
+
+.twitter-timeline {
+	max-width: none !important;
+}
+
+.news-section {
+	height: 296px;
+  margin-bottom: 1em;
+}
+
+.img-carousel {
+	height: 605px;
+	padding-left: 0px;
+}
+
+.imgs {
+  border: 2px solid #663300 !important;
+}
+
+.row {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: -17px;
+  z-index: 1000;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+
+.actv {
+  display: inline-block;
+}
+
+.inactv {
+  display: none;
+}
+
+
+#tw-header-text {
+  font-family: Papyrus;
+  text-align: center;
+  color: #663300;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+#ns {
+  margin-top: 17px;
+}
+
+.news {
+  font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+  font-size: 16px;
+}
+
+#ns > ul {
+  padding-left: 20px;
+}
+
+.gmaps {
+  width: 100%;
+  border: 1px solid #663300 !important;
+  margin-bottom: 2em;
+}
+
+.intro {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  text-align: center;
+  margin: 0 40px 0 40px;
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+#intro-header-text {
+  font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+  text-align: center;
+  color: #8B0000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-bullet {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#myCarousel {
+  width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.text-center.john {
+  font-size: 155%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  height: 381.5px;
+}

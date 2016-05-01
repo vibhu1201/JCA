@@ -1,0 +1,24 @@
+<div ng-controller="resourcesController">
+	<div class="container">
+		<div class="main-body">
+			<div class="resources">
+				<h2 id="header-text">Resources</h2>
+				<div class="fade-divider"></div>
+					<p class="resource-para process-description">These web sites are among our favorite resources for our clients - some may be more helpful to you while you're undergoing treatment, while others may be helpful during recovery and afterwards. Several of the national organizations listed here also have local Chicago chapters or outreach centers. <a href="contact">Please let us know if there are others that you've found helpful!</a>
+					</p>
+					<table class="resource_orgs" align="center">
+						<tr ng-repeat="items in groupedOrgs">
+							<td class="text-center organizations" ng-repeat="org in items">
+								<a href={{org.url}} target="_blank"><img src={{org.icon}}></a>
+							</td>
+						</tr>
+					</table>
+					<p class="resource-para process-description">For more information on the company and how to care for a wig, please <a href="/John Crager Brochure.pdf" target="_blank">click here.</a></p>
+
+				<!-- <div ng-repeat="org in orgs" class="col-md-4 text-center">
+					<a href={{org.url}} target="_blank"><img src={{org.icon}}></a>
+				</div> -->
+			</div>	
+		</div>
+	</div>
+</div>

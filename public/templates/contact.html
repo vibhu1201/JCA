@@ -1,0 +1,73 @@
+<div ng-controller="contactController">
+    <div class="container">
+        <h2 id="header-text">Contact Us</h2>
+        <div class="fade-divider"></div>
+        <p class="resource-para process-description">Have a question? We'd love to hear from you! You can use the form below to send an email, or you can email us at <a href="mailto:john@jcalt.com" target="_top">john@jcalt.com</a>. For appointments, please call <a href="tel:+13125651900">312.565.1900</a></p> 
+        <form ng-submit="processForm()" name="contactForm" class="contactForm">
+    	    <div class="field form-group">
+    	        <label for="name" class="form-label">Your Name:</label>
+    	           <input type="text" id="name" name="name" ng-model="contactData.sender_name"  class="form-control" ng-class="{ 'has-error': contactForm.name.$touched && contactForm.name.$invalid }" placeholder="John Crager" ng-readonly="submitted" required>
+                   <p ng-show="contactForm.name.$touched && contactForm.name.$invalid" class="error-message">Please include your full name!</p>
+    	    </div>
+
+    	    <div class="field form-group">
+    	        <label for="email" class="form-label">Your Email:</label>
+    	        <input type="email" id="email" name="email" ng-model="contactData.sender_email" class="form-control" ng-class="{ 'has-error': contactForm.email.$touched && contactForm.email.$invalid }" placeholder="jcrager@alternativ.es" ng-readonly="submitted" required>
+                <p ng-show="contactForm.email.$touched && contactForm.email.$invalid" class="error-message">Please enter a valid email address (with the '@' sign included)</p>
+    	    </div>
+
+            <div class="field form-group">
+                <label for="tel" class="form-label">Your Phone Number:</label>
+                <input type="tel" id="tel" name="tel" ng-model="contactData.sender_tel" class="form-control" ng-class="{ 'has-error': contactForm.tel.$touched && contactForm.tel.$invalid }" placeholder="3125651900" ng-minlength="10" ng-maxlength="10" ng-readonly="submitted" required>
+                <p ng-show="contactForm.tel.$touched && (contactForm.tel.$invalid)" class="error-message">Please enter your 10-digit phone number</p>
+            </div>
+
+    	    <div class="field form-group">
+    	        <label for="message" class="form-label">Your Message:</label>
+    	        <textarea id="message" name="message" ng-model="contactData.sender_message"  class="form-control" rows="6" ng-class="{ 'has-error': contactForm.message.$touched && contactForm.message.$invalid }" ng-minlength="10" ng-trim="false" ng-readonly="submitted" placeholder="Questions? Comments? Concerns?" required></textarea>
+                <p ng-show="contactForm.message.$dirty && contactForm.message.$invalid" class="error-message">Please add at least {{10 - contactForm.message.$viewValue.length}} more characters!</p>
+    	    </div>
+
+    	    <div class="field text-center">
+    	        <button type="submit" class="submit-btn form-btn" ng-class="{ 'opaque': contactForm.$invalid }" ng-disabled="contactForm.$invalid || submitted" ng-style="httpCall">{{httpCallText}}</button>
+    	    </div>
+    	</form>
+    </div>
+</div>
+<!--Contact Form Ajax, added in HTML for MVP purposes, will be changed later-->
+
+<!--ng-disabled="contactForm.$invalid"-->
+
+<!--<script>
+$(document).ready(function() {
+
+    $('button.submit').click(function() {
+
+    	var name = $('#name').val();
+    	var email = $('#email').val();
+    	var message = $('#message').val();
+
+        alert("Worked");
+        var contact_data = {
+        	'sender_name': name,
+        	'sender_email': email,
+        	'sender_message': message
+        };
+
+        $.ajax({
+            method:'POST',
+            url:'/php/contact.php',
+            data: contact_data
+        }).done(function(data) {
+
+        	alert('Success!');
+        	console.log(data);
+        }).fail(function(textStatus, jqXHR) {
+        	alert('Failed :(');
+        	console.log(textStatus);
+        	console.log(jqXHR);
+        });
+    });
+        
+});
+</script> -->

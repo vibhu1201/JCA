@@ -9,14 +9,13 @@
 }*/
 
 #header-text {
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	text-align: center;
 	color: #8B0000;
 }
 
 #our-promise > p {
-/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	color: #663300;
 	line-height: 34px;
     margin-top: 18px;
@@ -30,7 +29,6 @@ hr {
 }
 
 .fade-divider {
-	/*margin-bottom: -7px;*/
 	margin-left: 40px;
 	margin-right: 40px;
 	height: 2px;
@@ -41,7 +39,7 @@ hr {
 }
 
 #header {
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	text-align: center;
 	color: #8B0000;
 	font-size: 30px;
@@ -53,20 +51,16 @@ hr {
 	color: #663300;
 	line-height: 27px;
 	font-size: 18px;
-	/*text-align: center;*/
 	margin-top: 25px;
-/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .answer {
 	color: #663300;
 	line-height: 30px;
 	font-size: 16px;
-	/*text-align: center;*/
 	margin-top: -5px;
-/*	font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .qas {
@@ -82,11 +76,9 @@ hr {
 	color: #663300;
 	line-height: 27px;
 	font-size: 18px;
-	/*text-align: center;*/
 	margin-top: 25px;
 	text-align: center;
-	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .person {
@@ -95,18 +87,15 @@ hr {
 	font-size: 16px;
 	text-align: center;
 	margin-top: -5px;
-	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .john {
 	color: #663300;
 	line-height: 30px;
 	font-size: 17px;
-	/*text-align: center;*/
 	margin-top: -5px;
-	/*font-family: Corbel,Calibri,Candara,Helvetica,Verdana,Arial,sans-serif;*/
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 .container.col {

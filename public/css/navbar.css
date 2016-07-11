@@ -17,7 +17,7 @@
 	margin-right: 5px;
 	border-left:2px solid transparent;
 	border-right:2px solid transparent;
-	font-family: Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 }
 
 
@@ -119,12 +119,11 @@
 #experiment {
 	color: #D1E5A9;
 	font-weight: bold;
-	font-family: papyrus, Cambria, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
+	font-family: papyrus, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
 	font-size: 195%;
-/*	font-style: italic;*/
 	text-align: center;
 	margin-bottom: -20px;
-	text-shadow: -1px -1px 0 #e2ecd0, 1px -1px 0 #e2ecd0, -1px 1px 0 #e2ecd0, 1px 1px 0 #e2ecd0;
+	text-shadow: -1px -1px 0 #8B0000, 1px -1px 0 #8B0000, -1px 1px 0 #8B0000, 1px 1px 0 #8B0000;
 }
 
 .navbar-header {

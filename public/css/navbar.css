@@ -27,7 +27,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	font-size: 95%;
+	font-size: 1.5vw;
 	color: #8B0000;
 	margin-left: 5px;
 }
@@ -117,13 +117,13 @@
 }
 
 #experiment {
-	color: #D1E5A9;
+	color: #accc6b;
 	font-weight: bold;
 	font-family: papyrus, "Hoefler Text",Utopia,"Liberation Serif","Nimbus Roman No9 L","Times New Roman",serif;
-	font-size: 195%;
+	font-size: 1.8vw;
 	text-align: center;
 	margin-bottom: -20px;
-	text-shadow: -1px -1px 0 #8B0000, 1px -1px 0 #8B0000, -1px 1px 0 #8B0000, 1px 1px 0 #8B0000;
+/*	text-shadow: -1px -1px 0 #8B0000, 1px -1px 0 #8B0000, -1px 1px 0 #8B0000, 1px 1px 0 #8B0000;*/
 }
 
 .navbar-header {
@@ -142,11 +142,15 @@
 
 .contact_info {
 	margin-top: 1.2em;
-	margin-right: 1em;
+	margin-right: 2vw;
+}
+
+h4.ci {
+	font-size: 1.25vw;
 }
 
 h5.ci {
-	font-size: 15px;
+	font-size: 1.1vw;
 }
 
 .set-margin-tst {
